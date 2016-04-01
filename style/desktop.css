@@ -1,0 +1,54 @@
+h1{}
+
+h2{}
+
+h3{}
+
+body{
+  width: 80%;
+  height: 100%;
+
+  margin-left: 10%;
+  margin-right: 10%;
+
+  color: #000;
+}
+
+footer{}
+
+div{}
+
+div.nav-title{
+  display: inline;
+
+  padding-right: .5%;
+
+  border-right: 1px solid white;
+}
+
+div.nav-label{
+  display: inline;
+  font-size: 16pt;
+
+  padding-right: .5%;
+
+  border-right: 1px solid white;
+}
+
+nav{
+  color: white;
+  background-color: black;
+
+  left: 0;
+  top: 0;
+
+  height: 5%;
+  width: 100%;
+
+  font-family: Raleway;
+  font-size: 24pt;
+
+  position: fixed;
+
+  align-content: center;
+}
