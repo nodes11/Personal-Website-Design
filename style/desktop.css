@@ -6,12 +6,13 @@ h3{}
 
 body{
   width: 80%;
-  height: 100%;
+  height: 80%;
 
-  top: 5%;
+  top: 10%;
 
-  margin-left: 15%;
+  margin-left: 11%;
   margin-right: 15%;
+
 
   color: #000;
 
@@ -19,7 +20,6 @@ body{
 }
 
 footer{
-  border-top: 1px solid black;
 
   position: fixed;
 
@@ -27,49 +27,21 @@ footer{
 
   left: 0;
   bottom: 1px;
+
+  background-color: #FFFFFF;
 }
 
 .foot-item{
-  padding-left: 20%;
-  font-size: 10pt;
-}
-
-div{
-  background-color: white;
-}
-
-div.nav-title{
-  display: inline;
-
-  padding-right: .5%;
-
-  border-bottom: 1px solid black;
-}
-
-div.nav-label{
-  display: inline;
-
   float: right;
+  display: inline;
+  margin: .5%;
 
-  padding-right: .5%;
-  padding-left: .5%;
-
-  border-left: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-div.nav-label:hover{
-  background-color: black;
-  color: white
-}
-
-div.main{
-  top: 0%;
+  font-family: Raleway;
+  font-size: 12pt;
 }
 
 nav{
   color: black;
-  background-color: white;
 
   left: 0;
   top: 0;
@@ -78,38 +50,59 @@ nav{
   width: 100%;
 
   font-family: Raleway;
-  font-size: 24pt;
+  font-variant: small-caps;
+  font-size: 28pt;
+  font-weight: 900;
+
+  margin-left: 2%;
+  padding-top: 1%;
 
   margin-bottom: 0%;
 
   position: fixed;
 
   align-content: center;
-
-  border-bottom: 1px solid black;
-}
-
-div.textbox{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin-bottom: 3%;
-  padding: 2%;
-}
-
-p{
-  display: inline-block;
-  float: left;
-
 }
 
 img{
   border-radius: 50%;
+  display: block;
+}
 
-  height: 500px;
-  width: 500px;
+.left-side{
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+}
 
-  display: inline;
+.right-side{
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.dropdown{
+  float: right;
+  width: 10%;
+  height: auto;
+
+  display: none;
+  position: relative;
 
 
+  border: 1px solid black;
+}
 
+div.dropdown-item{
+  font-family: Raleway;
+  font-variant: small-caps;
+  font-size: 20pt;
+
+  margin: 5%;
 }
