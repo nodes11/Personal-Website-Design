@@ -55,13 +55,31 @@ nav{
   font-weight: 900;
 
   margin-left: 2%;
-  padding-top: 1%;
+  padding-top: 10%;
 
   margin-bottom: 0%;
 
   position: fixed;
 
   align-content: center;
+}
+
+p{
+  font-family: Garamond;
+  font-size: 15pt;
+  width: 55%;
+  margin-left: 22.5%;
+
+  text-align: center;
+}
+
+.center-font{
+  vertical-align: middle;
+}
+
+a{
+  color: black;
+  text-decoration: none;
 }
 
 img{
@@ -123,4 +141,13 @@ img{
 .dropdown-item:hover{
   background-color: #D3D3D3;
   cursor: pointer;
+}
+
+.hamburger-photo{
+  position: fixed;
+
+  margin-top: -3%;
+
+  right: 0;
+  top: 0;
 }
