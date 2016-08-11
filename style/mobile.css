@@ -61,6 +61,8 @@ nav{
 
   position: fixed;
 
+  z-index: 2;
+
   align-content: center;
 }
 
@@ -89,19 +91,11 @@ img{
   position: relative;
 }
 
-.feature-photo{
-  height: 60%;
-  width: 60%;
-}
-
 .hamburger-photo{
   position: fixed;
 
-  margin-top: -20%;
-
   right: 0;
   top: 0;
-
 }
 
 .left-side{
@@ -144,6 +138,8 @@ img{
   font-size: 20pt;
 
   z-index: 3;
+
+  right: 5;
 
   display: block;
 

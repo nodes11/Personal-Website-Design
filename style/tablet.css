@@ -110,19 +110,18 @@ img{
 
 .dropdown{
   float: right;
-  width: 15%;
+  width: 40%;
   height: auto;
 
-  z-index: 3;
-
-  position: relative;
+  z-index: 4;
 
   right: 0;
 
-  margin-right: -7.5%;
-  margin-top: -5%;
+  top: 10%;
 
   display: none;
+
+  position: fixed;
 }
 
 .dropdown-item{
@@ -130,12 +129,19 @@ img{
   font-variant: small-caps;
   font-size: 20pt;
 
+  z-index: 3;
+
+  right: 5;
+
+  display: block;
+
   border: 1px solid #D3D3D3;
 
   text-align: right;
 
   padding-right: 5%;
-  margin-top: 5%;
+
+  background-color: #FFFFFF;
 }
 
 .dropdown-item:hover{
