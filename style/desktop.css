@@ -87,10 +87,20 @@ a{
 img{
   border-radius: 50%;
   display: block;
+}
 
-  top: 20%;
+.hamburger-photo{
+  position: fixed;
+
+  margin-top: 1%;
+  margin-right: 1%;
+
+  right: -4%;
+  top: -8.5%;
+
 
 }
+
 
 .left-side{
   float: left;
@@ -148,14 +158,4 @@ Dropdown menu
 .dropdown-item:hover{
   background-color: #D3D3D3;
   cursor: pointer;
-}
-
-.hamburger-photo{
-  position: fixed;
-
-  margin-top: 1%;
-  margin-right: 1%;
-
-  right: 0;
-  top: 0;
 }
