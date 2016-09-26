@@ -34,10 +34,24 @@ footer{
 .foot-item{
   float: right;
   display: inline;
-  margin: .5%;
+
 
   font-family: Raleway;
   font-size: 12pt;
+  width: 100%;
+}
+
+.foot-link{
+  float: left;
+  display: inline;
+
+  margin-left: 11.5%;
+  margin-bottom: 1%;
+
+  font-family: Raleway;
+  font-size: 12pt;
+
+  width: 10%;
 }
 
 nav{
@@ -70,13 +84,24 @@ p{
   font-family: Garamond;
   font-size: 15pt;
   width: 55%;
-  margin-left: 22.5%;
+  margin-left: 5%;
 
   text-align: center;
 }
 
 .center-font{
   vertical-align: middle;
+  margin-left: 23%;
+}
+
+.content-header{
+  font-family: Garamond;
+  width: 55%;
+  margin-left: 5%;
+}
+
+.left-font{
+  text-align: left;
 }
 
 a{
@@ -98,7 +123,7 @@ img{
   right: -4%;
   top: -8.5%;
 
-
+  vertical-align: middle;
 }
 
 
@@ -125,16 +150,16 @@ Dropdown menu
 */
 .dropdown{
   float: right;
-  width: 30%;
+  width: 20%;
   height: auto;
 
   z-index: 3;
 
-  position: relative;
+  position: fixed;
 
   right: 0;
 
-  margin-right: -10%;
+  margin-right: 0%;
   margin-top: -50px;
 
   display: none;
@@ -153,9 +178,23 @@ Dropdown menu
   margin-top: 5%;
 
   background-color: #FFFFFF;
+  z-index: 4;
 }
 
 .dropdown-item:hover{
   background-color: #D3D3D3;
   cursor: pointer;
+}
+
+/**
+Content Properties
+*/
+.content-text{
+  margin-top: 8%;
+
+}
+
+.time{
+  font-family: Raleway;
+  font-size: 12pt;
 }
