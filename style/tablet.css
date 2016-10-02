@@ -34,10 +34,24 @@ footer{
 .foot-item{
   float: right;
   display: inline;
-  margin: .5%;
+
 
   font-family: Raleway;
   font-size: 12pt;
+  width: 100%;
+}
+
+.foot-link{
+  float: left;
+  display: inline;
+
+  margin-left: 11.5%;
+  margin-bottom: 1%;
+
+  font-family: Raleway;
+  font-size: 12pt;
+
+  width: 10%;
 }
 
 nav{
@@ -46,7 +60,7 @@ nav{
   left: 0;
   top: 0;
 
-  height: 4.6%;
+
   width: 100%;
 
   font-family: Raleway;
@@ -54,27 +68,40 @@ nav{
   font-size: 28pt;
   font-weight: 900;
 
-  margin-left: 2%;
-  padding-top: 1%;
+  margin-left: 1%;
 
-  margin-bottom: 0%;
 
   position: fixed;
 
+  z-index: 2;
+
   align-content: center;
+
+  background-color: #FFFFFF;
 }
 
 p{
   font-family: Garamond;
   font-size: 15pt;
   width: 55%;
-  margin-left: 22.5%;
+  margin-left: 5%;
 
   text-align: center;
 }
 
 .center-font{
   vertical-align: middle;
+  margin-left: 23%;
+}
+
+.content-header{
+  font-family: Garamond;
+  width: 55%;
+  margin-left: 5%;
+}
+
+.left-font{
+  text-align: left;
 }
 
 a{
@@ -85,27 +112,26 @@ a{
 img{
   border-radius: 50%;
   display: block;
-
-  top: 20%;
-
 }
 
 .hamburger-photo{
   position: fixed;
 
-  right: -3%;
-  top: -3.5%;
+  margin-right: 1%;
+
+  right: -4%;
+  top: -.4%;
+
+  vertical-align: middle;
 }
 
 .left-side{
   float: left;
-  margin-top: 5%;
   margin-left: 5%;
 }
 
 .right-side{
   float: right;
-  margin-top: 5%;
   margin-right: 5%;
 }
 
@@ -115,20 +141,26 @@ img{
   margin-right: auto;
 }
 
+/**
+Dropdown menu
+*/
 .dropdown{
   float: right;
-  width: 40%;
+  width: 20%;
   height: auto;
 
-  z-index: 4;
+  display: inline;
 
-  right: 0;
-
-  top: 10%;
-
-  display: none;
+  z-index: 2;
 
   position: fixed;
+
+  top: 6%;
+  right: 0;
+
+  margin-right: 0px;
+
+  display: none;
 }
 
 .dropdown-item{
@@ -136,11 +168,7 @@ img{
   font-variant: small-caps;
   font-size: 20pt;
 
-  z-index: 3;
-
-  right: 5;
-
-  display: block;
+  height: 20%;
 
   border: 1px solid #D3D3D3;
 
@@ -149,9 +177,30 @@ img{
   padding-right: 5%;
 
   background-color: #FFFFFF;
+  z-index: 4;
 }
 
 .dropdown-item:hover{
   background-color: #D3D3D3;
   cursor: pointer;
+}
+
+/**
+Content Properties
+*/
+.content-text{
+  margin-top: 8%;
+
+}
+
+.time{
+  font-family: Raleway;
+  font-size: 12pt;
+}
+
+.header-line{
+  margin-left: -1%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
 }
