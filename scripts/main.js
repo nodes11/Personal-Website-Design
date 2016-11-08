@@ -12,4 +12,8 @@ document.addEventListener("DOMContentLoaded", function(event){
       $(".dropdown")[0].style.display = "none";
     }
   });
+
+  $("dropdown-item").on("click", function(event){
+    $(".dropdown")[0].style.display = "none";
+  })
 });
