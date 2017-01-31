@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 100%;">
 <head>
     <title>Des Marks</title>
     <meta charset="utf-8">
@@ -11,9 +11,8 @@
 <body ng-app="PersonlWebsite">
 
 <div ng-include='"templates/header.html"'></div>
-<div ng-view></div>
-<div ng-include='"templates/footer.html"'></div>
-
+<div ng-view class="body"></div>
+<div ng-include='"templates/footer.html"' class="ng-footer"></div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http:////ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>

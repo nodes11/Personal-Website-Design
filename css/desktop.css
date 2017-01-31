@@ -1,3 +1,7 @@
+html{
+  height: 100%;
+}
+
 h1{}
 
 h2{}
@@ -5,29 +9,27 @@ h2{}
 h3{}
 
 body{
-  width: 80%;
-  height: 70%;
-
-/*  top: 20%;
-  bottom: -40px;*/
-
-  margin-left: 11%;
-  margin-right: 15%;
+  width: 100%;
+  height: 100%;
 
   color: #000;
 
   position: fixed;
 }
 
+.body {
+  height: 85%;
+}
+
 footer{
   position: fixed;
 
   width: 100%;
+  bottom: 0;
 
   left: 0;
-  bottom: 10px;
 
-  background-color: #FFFFFF;
+  background-color: #000;
 }
 
 .foot-link{
@@ -35,7 +37,9 @@ footer{
   display: inline;
 
   margin-left: 11.5%;
-  margin-bottom: 1%;
+  margin-bottom: 0%;
+
+  bottom: 0;
 
   font-family: Raleway;
   font-size: 12pt;
@@ -49,7 +53,6 @@ nav{
   left: 0;
   top: 0;
 
-
   width: 100%;
 
   font-family: Raleway;
@@ -58,7 +61,6 @@ nav{
   font-weight: 900;
 
   margin-left: 1%;
-
 
   position: fixed;
 
@@ -76,6 +78,10 @@ p{
   margin-left: 5%;
 
   text-align: center;
+}
+
+#Welcome{
+ margin-top: 4%;
 }
 
 .center-font{
@@ -179,7 +185,6 @@ Content Properties
 */
 .content-text{
   margin-top: 8%;
-
 }
 
 .time{
@@ -191,5 +196,6 @@ Content Properties
   margin-left: -1%;
   margin-top: 0;
   margin-bottom: 0;
+  bottom: 0;
   background-color: #FFFFFF;
 }

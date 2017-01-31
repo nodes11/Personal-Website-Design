@@ -19,13 +19,16 @@ body{
   position: relative;
 }
 
+.body {
+  height: 50%;
+}
+
 footer{
 
   position: fixed;
 
   width: 100%;
-  left: 0;
-  bottom: 1px;
+  left: -10%;
 
   background-color: #FFFFFF;
 }
